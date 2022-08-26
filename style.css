@@ -1,0 +1,25 @@
+body {
+    background-color: antiquewhite;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+  }
+  
+  .tile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #000;
+    padding: 30px;
+    font-size: 60px;
+    cursor: pointer;
+  }
+  
+  
+  
